@@ -15,6 +15,7 @@ gem "webpacker"
 
 group :development, :test do
   gem "byebug"
+  gem "factory_bot_rails"
   gem "rspec-rails"
 end
 
@@ -24,4 +25,8 @@ group :development do
   gem "spring-commands-rspec"
   gem "spring-watcher-listen"
   gem "web-console"
+end
+
+group :test do
+  gem "database_cleaner"
 end
