@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/emilford/domino.git
+  revision: 242124ef8b416804b882813a04501820c3dd1ef4
+  specs:
+    domino (0.8.0)
+      capybara (>= 0.4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -211,6 +218,7 @@ DEPENDENCIES
   byebug
   capybara
   database_cleaner
+  domino!
   factory_bot_rails
   listen
   pg

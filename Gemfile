@@ -30,5 +30,6 @@ end
 group :test do
   gem "capybara"
   gem "database_cleaner"
+  gem "domino", github: "emilford/domino"
   gem "selenium-webdriver"
 end
