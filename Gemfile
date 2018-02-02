@@ -31,4 +31,5 @@ group :test do
   gem "database_cleaner"
   gem "domino", github: "emilford/domino"
   gem "selenium-webdriver"
+	gem "shoulda-matchers"
 end
