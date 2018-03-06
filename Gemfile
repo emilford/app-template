@@ -9,6 +9,7 @@ gem "bootsnap", require: false
 gem "pg"
 gem "puma"
 gem "sass-rails"
+gem "skylight"
 gem "turbolinks"
 gem "uglifier"
 gem "webpacker"
