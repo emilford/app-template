@@ -24,6 +24,8 @@ group :development do
   gem "listen"
   gem "memory_profiler"
   gem "rack-mini-profiler"
+  gem "rubocop", require: false
+  gem "rubocop-performance"
   gem "spring"
   gem "spring-commands-rspec"
   gem "spring-watcher-listen"
@@ -37,5 +39,5 @@ group :test do
   gem "database_cleaner"
   gem "domino", github: "emilford/domino"
   gem "selenium-webdriver"
-	gem "shoulda-matchers"
+  gem "shoulda-matchers"
 end
