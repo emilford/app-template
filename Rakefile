@@ -5,5 +5,12 @@ require_relative 'config/application'
 
 Rails.application.load_tasks
 
-task(:default).clear
-task default: ["factory_bot:lint", :spec]
+begin
+  require "rubocop/rake_task"
+
+  RuboCop::RakeTask.new
+
+  task(:default).clear
+  task default: ["factory_bot:lint", :rubocop, :spec]
+rescue LoadError
+end
