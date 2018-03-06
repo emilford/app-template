@@ -21,10 +21,14 @@ group :development, :test do
 end
 
 group :development do
+  gem "flamegraph"
   gem "listen"
+  gem "memory_profiler"
+  gem "rack-mini-profiler"
   gem "spring"
   gem "spring-commands-rspec"
   gem "spring-watcher-listen"
+  gem "stackprof"
   gem "web-console"
 end
 
