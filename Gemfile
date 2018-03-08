@@ -8,6 +8,7 @@ gem "rails", "~> 6.0.0.rc1"
 gem "bootsnap", require: false
 gem "pg"
 gem "puma"
+gem "rollbar"
 gem "sass-rails"
 gem "skylight"
 gem "turbolinks"
