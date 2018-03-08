@@ -106,6 +106,7 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.11.3)
     msgpack (1.2.4)
+    multi_json (1.13.1)
     nio4r (2.3.1)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
@@ -152,6 +153,8 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
+    rollbar (2.16.3)
+      multi_json
     rspec-core (3.7.1)
       rspec-support (~> 3.7.0)
     rspec-expectations (3.7.0)
@@ -258,6 +261,7 @@ DEPENDENCIES
   puma
   rack-mini-profiler
   rails (~> 5.2.0)
+  rollbar
   rspec-rails
   rubocop
   sass-rails
